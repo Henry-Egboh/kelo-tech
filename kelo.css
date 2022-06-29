@@ -48,7 +48,7 @@ h5{
     color: #e2ba6f; 
     font-size: 18px;
     padding: 5px;
-    margin:5px 5px 5px 250px;
+    margin:5px 5px 5px 260px;
     font-family: 'Merriweather', serif;
 }
 
@@ -148,6 +148,7 @@ section.section1{
 .mission{
     width: 60%;
     margin-left: 20%;
+    margin-bottom: 0%;
     background-color: #c1ccc1;
     border-top: 2px solid whitesmoke;
 }
@@ -155,29 +156,68 @@ section.section1{
 .mission h2{
     color: whitesmoke;
     text-align: left;
-    padding: 15px 20px;
+    padding: 15px 30px;
     margin: 0px;
     background-color: #252d38;
 }
+
 .mission h4{
     font: 500 18px Verdana, Ariel, Helvetica;
     color: #252d38;
-    padding: 0px 20px;
-    margin-bottom: 0px;
+    padding: 5px 30px;
+    margin-bottom: 5px;
 }
 
 .mission p{
     color: #000000;
-    text-align: left;
-    padding: 20px 20px 10px 20px;
-    margin: 5px 0px;
+    text-align: justify;
+    padding: 20px 30px;
+    margin: 5px 0px 0px 0px;
 }
 
 hr.width{
     width: 30%;
-    margin-left: 20px;
-    /*margin: 0%;*/
+    margin-left: 30px;
 }
+
+.contribution{
+    width: 60%;
+    margin-left: 20%;
+    margin-bottom: 0%;
+    background-color: #c1ccc1;
+    border-top: 2px solid whitesmoke;
+}
+
+.bgtext_1{
+    background-image: url(./img/imgsection.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+
+.contribution h2{
+    color: whitesmoke;
+    text-align: left;
+    padding: 15px 30px;
+    border-top: 2px solid whitesmoke;
+    margin: 0px;
+    background-color: #252d38;
+}
+
+.contribution h4{
+    font: 500 18px Verdana, Ariel, Helvetica;
+    color: #252d38;
+    padding: 5px 30px;
+    margin-bottom: 5px;
+}
+
+.contribution p{
+    color: #000000;
+    text-align: justify;
+    padding: 20px 30px;
+    margin: 5px 0px 0px 0px;
+}
+
 
 
 
