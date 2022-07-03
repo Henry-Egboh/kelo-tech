@@ -272,3 +272,86 @@ hr.width{
     font-size: 18px;
 }
 
+/*===================================  CONTACT PAGE ============================================*/
+
+section.contact{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.contact{
+    width: 100%;
+    margin:0px;
+    /*background-color: #c1ccc1;
+    padding: 10px;*/
+}
+
+.div_form{
+width: 60%;
+padding: 10px 0px;
+margin-left: 20%;
+background-color: #c1ccc1;
+font: 500 16px 'Rubik', sans-serif, Verdana;
+color: #252d38;
+}
+
+.input{
+    display: table;
+}
+
+.row{
+    display: table-row;
+}
+
+.row label{
+    display: table-cell;
+    padding: 10px;
+    text-align: right;
+}
+
+.row input{
+    display: table-cell;
+    padding: 5px 5px 5px 30px;
+    width: 115%;
+    border: 1px ridge rgb(42, 42, 51);
+    border-radius: 5px;
+}
+
+textarea{
+    width: 130%;
+    height: 300px;
+    border: 1px ridge rgb(42, 42, 51);
+    border-radius: 5px;
+}
+
+.radio{
+    margin-bottom: 10px;
+}
+
+.radiocheck{
+    padding: 5px;
+    margin: 5px;
+  
+}
+
+button{
+    color: wheat;
+    background-color:  #434343;
+    width: 100px;
+    padding: 10px 5px;
+    /*font-size: 16px;*/
+    letter-spacing: 1px;
+    border: 2px solid rgb(41, 18, 18);
+    margin-left: 40%;
+    margin-top: 10px;
+}
+
+.input, .radiocheck{
+    margin-left: 100px;
+   /* margin-right: 100px;*/
+}
+
+
+
+
